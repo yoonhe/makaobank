@@ -1,0 +1,36 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("./images/man.png") no-repeat right calc(50% + 27em) bottom
+      3em / 28vh,
+    url("./images/woman.png") no-repeat right calc(50% - 30em) bottom 3em / 44vh,
+    url(./images/wave.svg) no-repeat 50% 50% / cover;
+}
+
+article {
+  padding: 3em;
+  width: 27em;
+  height: 90%;
+  border-radius: 0.5em;
+  background: #ffffff;
+  color: #333333;
+}
+
+article h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+}
+
+article dl {
+  font-size: 1.1em;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1em;
+  width: 84%;
+}
+
+article dl dd {
+  margin-left: 0.3em;
+  width: 70%;
+}
