@@ -27,7 +27,7 @@ article dl {
   display: flex;
   flex-wrap: wrap;
   row-gap: 1em;
-  width: 84%;
+  width: 72%;
 }
 
 article dl dd {
