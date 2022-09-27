@@ -1,0 +1,44 @@
+body {
+  background: #0f7562;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 1em 2em;
+  background: #0c5a4c;
+}
+
+h1 a {
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  margin-left: 2em;
+}
+
+nav li {
+  padding: 1em;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+main {
+  padding: 100px;
+}
+
+main a {
+  padding: 1em 2em;
+  border-radius: 2em;
+  background: #0c5a4c;
+  color: #fff;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1em;
+}
