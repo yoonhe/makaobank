@@ -1,5 +1,6 @@
 header {
   background: #0c5a4c;
+  height: 4em;
 }
 
 header h1 a {
@@ -19,7 +20,7 @@ header div {
   margin: 0 auto;
   padding: 0.5em;
   min-width: 1024px;
-  width: 1024px;
+  width: 70%;
 }
 
 nav ul {

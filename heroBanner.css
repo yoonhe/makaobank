@@ -1,0 +1,53 @@
+main {
+  display: flex;
+  align-items: center;
+  min-width: 1024px;
+  height: calc(100vh - 4em);
+  background: url(./images/wave.svg) no-repeat 50% 50% / cover;
+}
+
+main > div {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 1em;
+  min-width: 1024px;
+  width: 70%;
+}
+
+main > div:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+  display: block;
+  width: 76vh;
+  height: 51vh;
+  background: url(./images/saving.png) no-repeat 50% 50% / contain;
+  content: "";
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1em;
+  line-height: 1.5;
+}
+
+h2 span {
+  display: block;
+}
+
+.main-button {
+  display: flex;
+  gap: 1em;
+  margin-left: 3em;
+}
+
+.main-button a {
+  padding: 1.5em 2.2em;
+  border-radius: 2.3em;
+  background: #0c5a4c;
+  color: #fff;
+  width: 10em;
+  text-align: center;
+  box-shadow: 0px 5px 20px rgb(0 0 0 / 25%);
+}
