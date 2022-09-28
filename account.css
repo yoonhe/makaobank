@@ -2,15 +2,15 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("./images/man.png") no-repeat right calc(50% + 27em) bottom
+  background: url("./images/man.png") no-repeat right calc(50% + 33em) bottom
       3em / 28vh,
-    url("./images/woman.png") no-repeat right calc(50% - 30em) bottom 3em / 44vh,
+    url("./images/woman.png") no-repeat right calc(50% - 37em) bottom 3em / 44vh,
     url(./images/wave.svg) no-repeat 50% 50% / cover;
 }
 
 article {
   padding: 3em;
-  width: 27em;
+  width: 30em;
   height: 90%;
   border-radius: 0.5em;
   background: #ffffff;
@@ -25,12 +25,41 @@ article h2 {
 article dl {
   font-size: 1.1em;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   row-gap: 1em;
-  width: 72%;
+}
+
+article dl div {
+  display: flex;
 }
 
 article dl dd {
   margin-left: 0.3em;
-  width: 70%;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+.field label {
+  font-size: 1.1em;
+}
+
+.field input {
+  height: 2.5em;
+  border: 1px solid #dddddd;
+  border-radius: 0.2em;
+}
+
+.submit-button {
+  display: block;
+  margin-top: 1.3em;
+  padding: 1em 0;
+  width: 100%;
+  border: none;
+  border-radius: 0.2em;
+  background: #0f7562;
+  color: #ffffff;
 }
